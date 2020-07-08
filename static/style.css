@@ -1,0 +1,118 @@
+/* Author: Dimitri Watel 2020 */
+
+#graph-container {
+      width:75%;
+      top:0;
+      bottom:0;
+      right:0;
+      position:absolute;
+      border-left:1px solid black;
+}
+
+#small-graph-container {
+      width:25%;
+      top: 200px;
+      bottom:0;
+      left:0;
+      position:absolute;
+}
+
+#menu{
+      width:25%;
+      height: 200px;
+      top: 25px;
+      left:0;
+      position:absolute;
+      border-bottom:1px solid black;
+}
+
+#main_graph_label{
+    position: absolute;
+      top: 50px;
+      left: 62.5%;
+      border-radius: 25px;
+      border:solid;
+      padding:5px;
+      transform: translate(-50%, -50%);
+}
+
+#small_graph_label{
+    position: absolute;
+      top: 250px;
+      left: 12.5%;
+      border-radius: 25px;
+      border:solid;
+      padding:5px;
+      transform: translate(-50%, -50%);
+}
+
+#subgraphs_div{
+    display: block;
+    width:80%;
+    margin:auto;
+}
+
+#subgraphs_div h3{
+    display: block;
+    width:100%;
+    text-align:center;
+}
+
+#subgraphs_list{
+    margin-top:3px;
+    width:100%;
+}
+
+#icon_buttons{
+    width: 100%;
+    text-align:center;
+}
+
+.icon_button{
+    display:inline-block;
+    padding: 0;
+    width: 74px;
+    height: 74px;
+    border-width:5px;
+    background-color:black;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#subgraphs_buttons{
+    position:absolute;
+    bottom:30px;
+    left:calc(25% + 20px);
+}
+
+#show_subgraphs{
+    width: 150px;
+}
+
+#all_subgraphs{
+    width: 150px;
+}
+
+#previous_subgraph{
+    width: 150px;
+}
+
+#next_subgraph{
+    width: 150px;
+}
+
+#help_button{
+    display:block;
+    height: 70px;
+    width: 70px;
+
+    position:absolute;
+    top:30px;
+    right:30px;
+    border-radius:50%;
+
+    background-color: white;
+    border: solid black;
+    color: black;
+
+}
